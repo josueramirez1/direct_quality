@@ -273,6 +273,12 @@ body {
   margin-bottom: 1.6rem;
 }
 
+.first-service-description {
+  font-size: 2.4rem;
+  line-height: 1.6;
+  padding: 0.8rem;
+}
+
 .services {
   display: grid;
   justify-content: center;
