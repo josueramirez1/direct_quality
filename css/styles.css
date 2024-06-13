@@ -1,4 +1,4 @@
-/* 
+/*
 
 ---- 01 TYPOGRAPHY
 
@@ -13,9 +13,9 @@ Bold: 700
 
 LINE HEIGHTS:
 Default: 1
-Small: 
-Medium: 
-Paragraph Default: 
+Small:
+Medium:
+Paragraph Default:
 
 Letter spacing
 
@@ -218,8 +218,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2.4rem;
-  filter: grayscale(100%);
-  opacity: 0.5;
+  /* filter: grayscale(100%); */
+  /* opacity: 0.5; */
 }
 
 /* ABOUT SECTION */

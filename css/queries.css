@@ -77,6 +77,12 @@
   .cta {
     grid-template-columns: 1fr;
   }
+
+  .featured-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
 }
 
 @media (max-width: 800px) {
@@ -118,7 +124,9 @@
   }
 
   .featured-images {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
   }
   .cta-text-box {
     padding: 4.8rem 2.1rem;
