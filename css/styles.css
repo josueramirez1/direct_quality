@@ -257,6 +257,7 @@ body {
   font-size: 2.4rem;
   line-height: 1.6;
   padding: 0.8rem;
+  text-align: center;
 }
 
 /* SERVICES SECTION */
@@ -277,6 +278,7 @@ body {
   font-size: 2.4rem;
   line-height: 1.6;
   padding: 0.8rem;
+  text-align: center;
 }
 
 .services {
@@ -339,8 +341,12 @@ body {
 
 .testimonial-title {
   text-align: center;
-
   color: #066ab2;
+}
+
+.reviews {
+  width: 100%;
+  height: 25rem;
 }
 
 .box-testimonial {
@@ -554,13 +560,69 @@ body {
 .btt-btn:hover {
   background-color: #054d80;
 }
-
-#footer p {
-  padding-bottom: 6rem;
-  text-align: center;
-  font-size: 1.4rem;
+/* Footer */
+#footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
 }
 
+.logo-cols {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.social-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style: none;
+  gap: 1.2rem;
+  justify-items: center;
+  margin: 0 4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-top: 5rem;
+}
+
+.footer-heading {
+  margin: 2rem 0 4rem 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.address-cols {
+  text-align: left;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.address {
+  font-style: inherit;
+  margin-bottom: 2.4rem;
+}
+
+.hours {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.end {
+  text-align: center;
+}
+
+/* Scrolling fade in */
 header,
 section,
 footer {

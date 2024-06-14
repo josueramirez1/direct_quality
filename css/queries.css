@@ -83,6 +83,10 @@
     grid-template-columns: 1fr 1fr;
     justify-items: center;
   }
+
+  #footer .grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 800px) {
@@ -107,6 +111,24 @@
 
   .cta-form {
     grid-template-columns: 1fr;
+  }
+
+  #footer .grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .address-cols {
+    text-align: center;
+  }
+
+  .contacts {
+    font-size: 2rem;
+  }
+
+  .open p {
+    font-size: 2rem;
   }
 }
 
