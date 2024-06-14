@@ -26,20 +26,22 @@ sticky.observe(sectionHeroEl);
 
 // Scrolling
 
-const options = {
-  root: null,
-  threshold: 0,
-};
+// const options = {
+//   root: null,
+//   threshold: 0,
+// };
 
-const observer = new IntersectionObserver((entries) => {
-  for (let entry of entries) {
-    entry.target.classList.toggle("show", entry.isIntersecting);
-  }
-}, options);
+// const observer = new IntersectionObserver((entries) => {
+//   for (let entry of entries) {
+//     entry.target.classList.toggle("show", entry.isIntersecting);
+//   }
+// }, options);
 
-sections.forEach((section) => {
-  observer.observe(section);
-});
+// sections.forEach((section) => {
+//   observer.observe(section);
+// });
+
+// Mobile navigation button
 
 const navBtn = document.querySelector(".btn-mobile-nav");
 
