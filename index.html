@@ -48,9 +48,7 @@
             >
           </li>
           <li>
-            <a class="nav-link header-btn" href="#section-testimonial"
-              >Blog</a
-            >
+            <a class="nav-link header-btn" href="#section-testimonial">Blog</a>
           </li>
           <li>
             <a class="nav-link header-btn" href="#section-testimonial"
@@ -73,9 +71,13 @@
 
     <main>
       <section id="section-hero">
-        <video autoplay muted loop id="hero-vid" src="video/fileSmall.mp4">
-
-        </video>
+        <video
+          autoplay
+          muted
+          loop
+          id="hero-vid"
+          src="video/fileSmall.mp4"
+        ></video>
         <div class="hero">
           <div class="hero-title">
             <h1 class="hero-info">
@@ -90,9 +92,7 @@
       </section>
 
       <section id="section-featured">
-
         <div class="container">
-
           <div class="featured--title">
             <h2 class="featured--describe heading-tertiary">Accredited By:</h2>
           </div>
@@ -134,9 +134,7 @@
           <h2 class="first-service-title margin-bottom-md">
             Find a service that meets your needs!
           </h2>
-          <p class="first-service-description margin-bottom-md">
-
-          </p>
+          <p class="first-service-description margin-bottom-md"></p>
           <!-- </div> -->
 
           <div class="services">
@@ -248,7 +246,7 @@
                     required
                   />
                 </div>
-                <div>
+                <!-- <div>
                   <label for="select-where">Where did you hear from us?</label>
                   <select id="select-where" required>
                     <option value="">Please choose one option:</option>
@@ -258,19 +256,27 @@
                     <option value="ad">Facebook ad</option>
                     <option value="others">Others</option>
                   </select>
-                </div>
+                </div> -->
 
                 <div>
-                  <label for="description">Description</label>
+                  <label for="description">Vehicle Description</label>
                   <input
                     id="description"
                     type="description"
-                    placeholder="Make, model, year, damage or service desired"
+                    placeholder="Year Make Model"
                     required
                   />
                 </div>
 
-                <button class="btn btn--form">Request a quote!</button>
+                <div class="desire-service">
+                  <label for="desired-service"
+                    >Please describe the damage and/or service desired.</label
+                  >
+                  <textarea name="" id="desired-service"></textarea>
+                </div>
+                <button class="btn btn--form">
+                  Get Your Free Quote Today!
+                </button>
               </form>
             </div>
             <div
@@ -283,7 +289,7 @@
       </section>
     </main>
     <footer id="footer">
-      <div class="container grid grid--4-cols">
+      <div class="container grid">
         <div class="logo-cols">
           <a class="footer-logo" href="#">
             <img src="images/logo.webp" alt="" />
@@ -363,43 +369,43 @@
             <p>
               <a class="footer-link" href="tel:909-251-6568">(909)251-6568</a>
               Main
-              <br />
+            </p>
+            <p>
               <a class="footer-link" href="tel:909-600-8394"> (909)600-8394</a>
               Secondary
-              <br />
+            </p>
+            <!-- <p>
               <a
                 class="footer-link"
                 href="mailto:directqualityautoglass@gmail.com"
                 >directqualityautoglass@gmail.com</a
               >
-            </p>
+            </p> -->
           </address>
         </div>
         <div class="open-cols">
-          <div class="open">
-            <p class="footer-heading">Opening Hours</p>
-            <p class="hours">Monday - Friday: 8:00am - 5:00pm​​</p>
-            <br />
-            <p class="hours">Saturday: 8:00am - 1:00pm​</p>
-            <br />
-            <p class="hours">Sunday: Closed</p>
-          </div>
+          <p class="footer-heading">Opening Hours</p>
+          <p class="hours">Monday - Friday: 8:00am - 5:00pm​​</p>
+          <br />
+          <p class="hours">Saturday: 8:00am - 1:00pm​</p>
+          <br />
+          <p class="hours">Sunday: Closed</p>
         </div>
-        <div class="open-cols">
-          <div class="open"></div>
-          <p class="footer-heading">Resources</p>
-
-           <p><a class="local-link" href="">About</a></p>
+        <div class="resources-cols">
+          <div>
+            <p class="footer-heading">Resources</p>
+          </div>
+          <div class="linkers">
+            <p><a class="local-link" href="">About</a></p>
             <br />
-           <p><a class="local-link" href="">Specials</a></p>
+            <p><a class="local-link" href="">Specials</a></p>
             <br />
-           <p><a class="local-link" href="">Services</a></p>
+            <p><a class="local-link" href="">Services</a></p>
             <br />
-           <p><a class="local-link" href="">Blog</a></p>
+            <p><a class="local-link" href="">Blog</a></p>
             <br />
-           <p><a class="local-link" href="">Contact Page</a></p>
+            <p><a class="local-link" href="">Contact Page</a></p>
             <br />
-
           </div>
         </div>
       </div>

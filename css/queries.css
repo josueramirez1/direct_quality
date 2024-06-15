@@ -80,13 +80,56 @@
   }
 
   #footer .grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+  .logo-cols {
+    order: 10;
+    grid-column: 1/4;
+  }
+
+  .footer-logo {
+    text-align: center;
+  }
+  .social-links {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .social-links .fa-brands {
+    font-size: 2.2rem;
   }
 }
 
 @media (max-width: 800px) {
   .services {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  #footer .grid {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .logo-cols {
+    order: 10;
+    grid-column: 1/3;
+  }
+
+  .resources-cols {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/3;
+  }
+
+  .linkers {
+    display: flex;
+  }
+
+  .contacts,
+  .hours,
+  .local-link {
+    font-size: 1.8rem;
   }
 }
 
@@ -108,22 +151,9 @@
     grid-template-columns: 1fr;
   }
 
-  #footer .grid {
-    grid-template-columns: 1fr;
-    text-align: center;
-    font-size: 2rem;
-  }
-
-  .address-cols {
-    text-align: center;
-  }
-
-  .contacts {
-    font-size: 2rem;
-  }
-
-  .open p {
-    font-size: 2rem;
+  .contacts,
+  .hours {
+    font-size: 1.6rem;
   }
 }
 
@@ -151,6 +181,10 @@
 
   .services {
     grid-template-columns: 1fr;
+  }
+
+  .local-link {
+    font-size: 1.6rem;
   }
 }
 

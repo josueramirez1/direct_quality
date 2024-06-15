@@ -556,12 +556,27 @@ body {
   border-bottom-right-radius: 5px;
 }
 
+.desire-service {
+  display: grid;
+  grid-column: 1 /3;
+}
+
+.desire-service textarea {
+  display: inline-block;
+  grid-column: 1/3;
+  height: 10rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  padding: 0.2rem;
+  resize: none;
+}
+
 .btn--form {
   border-radius: 8px;
   border: none;
   cursor: pointer;
   background-color: #fff;
-  align-self: end;
+  grid-column: 1/3;
 }
 
 .btt {
@@ -592,6 +607,10 @@ body {
   background-color: #fff;
   padding: 12.8rem 0;
   border-top: 1px solid #eee;
+}
+
+#footer .grid {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .logo-cols {
@@ -625,10 +644,7 @@ body {
   margin: 2rem 0 4rem 0;
   font-size: 1.8rem;
   font-weight: 500;
-}
-
-.address-cols {
-  text-align: left;
+  text-align: center;
 }
 
 .contacts {
