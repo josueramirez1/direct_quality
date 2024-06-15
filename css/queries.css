@@ -51,7 +51,7 @@
   }
   .nav-link:link,
   .nav-link:visited {
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
 
   .featured-images {
@@ -148,7 +148,8 @@
   }
 
   .cta-form {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
 
   .contacts,
@@ -213,13 +214,5 @@
 
   .services {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .cta {
-    grid-template-columns: 1fr;
-  }
-
-  .cta-form {
-    grid-template-columns: 1fr;
   }
 }
