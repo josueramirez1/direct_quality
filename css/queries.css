@@ -47,7 +47,7 @@
   }
   .nav-links {
     flex-direction: column;
-    gap: 4.6rem;
+    gap: 2.4rem;
   }
   .nav-link:link,
   .nav-link:visited {
