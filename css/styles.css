@@ -253,7 +253,7 @@ body {
   padding: 9.6rem 0;
   background-color: #066ab2;
   color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url(../images/shop.jpg);
   background-size: cover;
 }
@@ -275,14 +275,13 @@ body {
 
 .about-text-box {
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
 
 .about-description {
   font-size: 2.4rem;
   line-height: 1.6;
   padding: 0.8rem;
-  text-align: center;
 }
 
 /* SERVICES SECTION */
