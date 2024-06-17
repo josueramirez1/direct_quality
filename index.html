@@ -124,7 +124,7 @@
         <div class="container">
           <!-- <div class="container"> -->
           <h2 class="first-service-title margin-bottom-md">
-            Find a service that meets your needs!
+            Find a service that meets your needs
           </h2>
           <p class="first-service-description margin-bottom-md"></p>
           <!-- </div> -->
@@ -209,7 +209,7 @@
             allowtransparency="true"
             allowvr="true"
             frameborder="0"
-            allow="autoplay;camera;microphone;geolocation;vr"
+            allow="autoplay;camera;microphone;geolocation;"
           ></iframe>
         </div>
       </section>
@@ -218,7 +218,7 @@
           <div class="cta">
             <div class="cta-text-box">
               <h2 class="cta-title">Get a Price Quote</h2>
-              <form class="cta-form" action="#" netlify>
+              <form class="cta-form" action="#" method="POST" netlify>
                 <div>
                   <label for="first">First Name</label>
                   <input id="first" type="text" placeholder="John" required />
@@ -238,17 +238,6 @@
                     required
                   />
                 </div>
-                <!-- <div>
-                  <label for="select-where">Where did you hear from us?</label>
-                  <select id="select-where" required>
-                    <option value="">Please choose one option:</option>
-                    <option value="friends">Friends and family</option>
-                    <option value="youtube">YouTube video</option>
-                    <option value="podcast">Podcast</option>
-                    <option value="ad">Facebook ad</option>
-                    <option value="others">Others</option>
-                  </select>
-                </div> -->
 
                 <div>
                   <label for="description">Vehicle Description</label>
@@ -261,12 +250,12 @@
                 </div>
 
                 <div class="desire-service">
-                  <label for="desired-service"
+                  <label for="desired-service" required
                     >Please describe the damage and/or service desired.</label
                   >
                   <textarea name="" id="desired-service"></textarea>
                 </div>
-                <button class="btn btn--form">
+                <button type="submit" class="btn btn--form">
                   Get Your Free Quote Today!
                 </button>
               </form>
