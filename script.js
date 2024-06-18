@@ -52,14 +52,3 @@ navBtn.addEventListener("click", (e) => {
     header.classList.remove("nav-open");
   });
 });
-
-// Form submission
-const form = document.querySelector(".cta-form");
-const submitBtn = document.querySelector(".btn--form");
-
-form.addEventListener("submit", (e) => {
-  for (let div of form) {
-    div.value = "";
-  }
-  submitBtn.textContent = "Your form has been received. Thank you!";
-});
