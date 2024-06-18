@@ -58,8 +58,6 @@ const form = document.querySelector(".cta-form");
 const submitBtn = document.querySelector(".btn--form");
 
 form.addEventListener("submit", (e) => {
-  e.preventDefault();
-
   for (let div of form) {
     div.value = "";
   }
