@@ -53,23 +53,12 @@ navBtn.addEventListener("click", (e) => {
   });
 });
 
-// Form submission AJAX
+// Form submission
 const form = document.querySelector(".cta-form");
 const submitBtn = document.querySelector(".btn--form");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-
-  const myForm = e.target;
-  const formData = new FormData(myForm);
-
-  fetch("/", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString(),
-  })
-    .then(() => console.log("Form successfully submitted"))
-    .catch((error) => alert(error));
 
   for (let div of form) {
     div.value = "";
