@@ -60,7 +60,8 @@ const submitBtn = document.querySelector(".btn--form");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  const formData = new FormData(submitBtn);
+  const myForm = e.target;
+  const formData = new FormData(myForm);
 
   fetch("/", {
     method: "POST",
